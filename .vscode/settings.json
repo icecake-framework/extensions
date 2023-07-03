@@ -1,0 +1,24 @@
+{
+    "liveServer.settings.port": 5510,
+    "liveServer.settings.root": "/examples",
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "/mnt/c/Program Files/Google/Chrome/Application/chrome.exe --remote-debugging-port=9222",
+    "liveServer.settings.NoBrowser": false,
+    "liveServer.settings.fullReload": true,
+    "liveServer.settings.https": {
+        "enable": false,
+        "cert": "",
+        "key": "",
+        "passphrase": ""
+    },
+    "gopls": {
+        "build.buildFlags": [
+            "-tags=js,wasm"
+        ]
+    },
+    "go.coverOnSingleTestFile": true,
+    "go.coverOnSingleTest": true,
+    // "go.toolsEnvVars": {
+    //     "GOOS": "js",
+    //     "GOARCH": "wasm",
+    // },
+}
